@@ -1,6 +1,6 @@
-# PlaceMate
+# InterviewOps
 
-PlaceMate is a placement intelligence platform for engineering students navigating campus placement season. It turns the original Hireable job portal into a student-first command center for placement prep, company tracking, interview experience sharing, readiness scoring, and application management.
+InterviewOps is a placement intelligence platform for engineering students navigating campus placement season. It turns the original Hireable job portal into a student-first command center for placement prep, company tracking, interview experience sharing, readiness scoring, and application management.
 
 ## What It Does
 
@@ -40,7 +40,7 @@ PlaceMate is a placement intelligence platform for engineering students navigati
 
 ### Student-facing pages
 
-- `/` - PlaceMate landing page
+- `/` - InterviewOps landing page
 - `/auth` - login and signup
 - `/profile/setup` - one-time student profile onboarding
 - `/dashboard` - placement command center
@@ -77,7 +77,7 @@ cd ..
 Create `backend/.env` from `backend/.env.example`:
 
 ```env
-MONGO_URI=mongodb://localhost:27017/placemate
+MONGO_URI=mongodb://localhost:27017/InterviewOps
 JWT_SECRET=replace_with_a_secure_random_secret
 PORT=5000
 CLIENT_URL=http://localhost:5173
@@ -112,7 +112,7 @@ Default local URLs:
 
 ## Seeded Data
 
-On backend startup, PlaceMate seeds sample company drives and interview experiences if the collections are empty. This helps avoid blank states on a fresh database.
+On backend startup, InterviewOps seeds sample company drives and interview experiences if the collections are empty. This helps avoid blank states on a fresh database.
 
 Seeded sample companies include flows like Oracle, MathWorks, BlackRock, Texas Instruments, Atlassian, and others.
 

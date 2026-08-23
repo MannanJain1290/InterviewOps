@@ -1,6 +1,6 @@
-# PlaceMate Backend API
+# InterviewOps Backend API
 
-Express + MongoDB backend for PlaceMate, a placement intelligence platform for engineering students.
+Express + MongoDB backend for InterviewOps, a placement intelligence platform for engineering students.
 
 ## Stack
 
@@ -25,7 +25,7 @@ npm install
 Create `backend/.env`:
 
 ```env
-MONGO_URI=mongodb://localhost:27017/placemate
+MONGO_URI=mongodb://localhost:27017/InterviewOps
 JWT_SECRET=replace_with_a_secure_random_secret
 PORT=5000
 CLIENT_URL=http://localhost:5173
