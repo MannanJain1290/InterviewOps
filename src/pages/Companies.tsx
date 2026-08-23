@@ -8,7 +8,7 @@ import { Input } from "@/components/ui/input";
 import { useAuth } from "@/contexts/AuthContext";
 import { useToast } from "@/hooks/use-toast";
 import { apiClient, Job } from "@/lib/api";
-import { BRANCH_OPTIONS, TOPIC_OPTIONS, getEligibility } from "@/lib/placemate";
+import { BRANCH_OPTIONS, TOPIC_OPTIONS, getEligibility } from "@/lib/InterviewOps";
 
 const DRIVE_MONTH_OPTIONS = [
   "January",

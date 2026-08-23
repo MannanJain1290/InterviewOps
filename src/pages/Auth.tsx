@@ -82,7 +82,7 @@ export default function Auth() {
           <h1 className="mt-6 text-4xl font-extrabold leading-tight text-white md:text-6xl">
             Sign in to
             <br />
-            your PlaceMate workspace
+            your InterviewOps workspace
           </h1>
           <p className="mt-6 max-w-xl text-lg leading-8 text-slate-400">
             Track company drives, score your resume against real JDs, and keep every placement round organized from one dashboard.
@@ -104,7 +104,7 @@ export default function Auth() {
             <div className="mx-auto flex h-14 w-14 items-center justify-center rounded-2xl border border-blue-400/25 bg-blue-500/10 text-blue-300">
               <Target className="h-6 w-6" />
             </div>
-            <CardTitle className="mt-4 text-2xl font-bold text-white">Welcome to PlaceMate</CardTitle>
+            <CardTitle className="mt-4 text-2xl font-bold text-white">Welcome to InterviewOps</CardTitle>
             <CardDescription>Sign in or create your account to start your placement setup.</CardDescription>
           </CardHeader>
           <CardContent>

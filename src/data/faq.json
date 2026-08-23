@@ -2,12 +2,12 @@
   {
     "id": 1,
     "question": "Which companies can I sit for as an EE student?",
-    "answer": "PlaceMate checks your branch and CGPA against each drive's cutoff, then highlights which companies are open to you right now."
+    "answer": "InterviewOps checks your branch and CGPA against each drive's cutoff, then highlights which companies are open to you right now."
   },
   {
     "id": 2,
     "question": "How does the Resume-JD scorer work?",
-    "answer": "Paste your resume and a job description, and PlaceMate compares technical keywords, missing skills, and repeated requirements to estimate match strength."
+    "answer": "Paste your resume and a job description, and InterviewOps compares technical keywords, missing skills, and repeated requirements to estimate match strength."
   },
   {
     "id": 3,

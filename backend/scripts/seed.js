@@ -271,13 +271,13 @@ const sampleExperiences = [
 ];
 
 async function ensureSeedUser() {
-  let user = await User.findOne({ email: "seed@placemate.app" });
+  let user = await User.findOne({ email: "seed@InterviewOps.app" });
   if (!user) {
-    const passwordHash = await bcrypt.hash("PlaceMate123", 10);
+    const passwordHash = await bcrypt.hash("InterviewOps123", 10);
     user = await User.create({
-      email: "seed@placemate.app",
+      email: "seed@InterviewOps.app",
       passwordHash,
-      name: "PlaceMate Seed",
+      name: "InterviewOps Seed",
       role: "admin",
       profileCompleted: true,
       studentProfile: {
@@ -312,13 +312,13 @@ async function seedJobsIfEmpty() {
         isActive: true,
       })),
     );
-    console.log("Seeded sample company drives for PlaceMate.");
+    console.log("Seeded sample company drives for InterviewOps.");
   }
 
   const existingExperiences = await Experience.countDocuments();
   if (existingExperiences === 0) {
     await Experience.insertMany(sampleExperiences);
-    console.log("Seeded sample interview experiences for PlaceMate.");
+    console.log("Seeded sample interview experiences for InterviewOps.");
   }
 }
 

@@ -147,7 +147,7 @@ router.post("/analyze", authMiddleware, async (req, res) => {
           {
             keyword: "resume",
             frequency: 1,
-            tip: "Paste a more detailed JD so PlaceMate can extract technical requirements accurately.",
+            tip: "Paste a more detailed JD so InterviewOps can extract technical requirements accurately.",
           },
         ],
         totalJDKeywords: 0,

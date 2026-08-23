@@ -9,7 +9,7 @@ import { Textarea } from "@/components/ui/textarea";
 import { useToast } from "@/hooks/use-toast";
 import EmptyState from "@/components/EmptyState";
 import { apiClient, TrackerEntry } from "@/lib/api";
-import { TRACKER_STAGES, formatShortDate } from "@/lib/placemate";
+import { TRACKER_STAGES, formatShortDate } from "@/lib/InterviewOps";
 
 function sortTrackerEntries(entries: TrackerEntry[]) {
   return [...entries].sort((a, b) => {

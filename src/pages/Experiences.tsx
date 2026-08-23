@@ -10,7 +10,7 @@ import EmptyState from "@/components/EmptyState";
 import { useAuth } from "@/contexts/AuthContext";
 import { useToast } from "@/hooks/use-toast";
 import { apiClient, Experience } from "@/lib/api";
-import { TOPIC_OPTIONS } from "@/lib/placemate";
+import { TOPIC_OPTIONS } from "@/lib/InterviewOps";
 
 export default function Experiences() {
   const { isAuthenticated, user } = useAuth();

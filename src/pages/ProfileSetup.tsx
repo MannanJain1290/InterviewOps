@@ -14,7 +14,7 @@ import {
   SYSTEM_DESIGN_OPTIONS,
   TOPIC_OPTIONS,
   YEAR_OPTIONS,
-} from "@/lib/placemate";
+} from "@/lib/InterviewOps";
 import { useToast } from "@/hooks/use-toast";
 
 function toggleItem(items: string[], item: string) {
@@ -87,7 +87,7 @@ export default function ProfileSetup() {
       <div className="container mx-auto max-w-5xl">
         <div className="mb-10">
           <p className="pill">One-time profile setup</p>
-          <h1 className="mt-4 text-4xl font-bold text-white">Tell PlaceMate how to personalize your prep</h1>
+          <h1 className="mt-4 text-4xl font-bold text-white">Tell InterviewOps how to personalize your prep</h1>
           <p className="mt-3 max-w-2xl text-lg text-slate-400">
             We use this to filter companies, estimate readiness, and tailor your dashboard to the drives that actually matter to you.
           </p>

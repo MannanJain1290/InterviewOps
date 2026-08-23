@@ -17,7 +17,7 @@ const stats = [
   { value: "1,200+", label: "Problems tracked by users" },
   { value: "47", label: "Companies with drives" },
   { value: "320+", label: "Experiences from seniors" },
-  { value: "2.1k", label: "Students using PlaceMate" },
+  { value: "2.1k", label: "Students using InterviewOps" },
 ];
 
 const features = [
@@ -62,7 +62,7 @@ const features = [
 const steps = [
   {
     title: "Set Your Profile",
-    description: "Tell PlaceMate your branch, CGPA, skills, and target companies.",
+    description: "Tell InterviewOps your branch, CGPA, skills, and target companies.",
   },
   {
     title: "Get Your Score",

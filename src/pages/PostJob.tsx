@@ -6,7 +6,7 @@ import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
 import { useToast } from "@/hooks/use-toast";
 import { apiClient } from "@/lib/api";
-import { BRANCH_OPTIONS, TOPIC_OPTIONS } from "@/lib/placemate";
+import { BRANCH_OPTIONS, TOPIC_OPTIONS } from "@/lib/InterviewOps";
 
 export default function PostJob() {
   const { toast } = useToast();

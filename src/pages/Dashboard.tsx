@@ -3,7 +3,7 @@ import { ArrowRight, Building2, FileSearch, Flame, Kanban, MessageSquare, PenSqu
 import { Link } from "react-router-dom";
 import { apiClient, Experience, Job, TrackerEntry } from "@/lib/api";
 import { useAuth } from "@/contexts/AuthContext";
-import { formatShortDate, getEligibility, getInitials } from "@/lib/placemate";
+import { formatShortDate, getEligibility, getInitials } from "@/lib/InterviewOps";
 import ScoreRing from "@/components/ScoreRing";
 import EmptyState from "@/components/EmptyState";
 import CompanyLogo from "@/components/CompanyLogo";
@@ -187,7 +187,7 @@ export default function Dashboard() {
               <EmptyState
                 icon={Flame}
                 title="Set up your profile to unlock personalized insights"
-                description="Once your profile is complete, PlaceMate will show eligible drives, experience recommendations, and tracker activity."
+                description="Once your profile is complete, InterviewOps will show eligible drives, experience recommendations, and tracker activity."
                 ctaHref="/profile/setup"
                 ctaLabel="Finish profile setup"
               />

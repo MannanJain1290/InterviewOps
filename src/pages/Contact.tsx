@@ -68,7 +68,7 @@ const Contact = () => {
                       <p className="text-sm text-muted-foreground">Send us an email anytime</p>
                     </div>
                   </div>
-                  <p className="font-medium text-primary">hello@placemate.app</p>
+                  <p className="font-medium text-primary">hello@InterviewOps.app</p>
                 </CardContent>
               </Card>
 
@@ -213,7 +213,7 @@ const Contact = () => {
             <div className="mb-8 text-center">
               <h2 className="mb-4 text-2xl font-bold">Frequently Asked Questions</h2>
               <p className="text-muted-foreground">
-                Quick answers to common questions about PlaceMate
+                Quick answers to common questions about InterviewOps
               </p>
             </div>
 

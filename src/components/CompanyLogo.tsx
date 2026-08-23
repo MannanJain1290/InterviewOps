@@ -1,5 +1,5 @@
 import { useMemo, useState } from "react";
-import { getInitials } from "@/lib/placemate";
+import { getInitials } from "@/lib/InterviewOps";
 
 interface CompanyLogoProps {
   name: string;

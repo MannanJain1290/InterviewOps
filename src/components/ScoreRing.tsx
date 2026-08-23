@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from "react";
-import { getScoreTone } from "@/lib/placemate";
+import { getScoreTone } from "@/lib/InterviewOps";
 import { cn } from "@/lib/utils";
 
 interface ScoreRingProps {

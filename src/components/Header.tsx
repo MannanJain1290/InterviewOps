@@ -14,7 +14,7 @@ import {
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useAuth } from "@/contexts/AuthContext";
-import { getInitials } from "@/lib/placemate";
+import { getInitials } from "@/lib/InterviewOps";
 
 const navItems = [
   { label: "Dashboard", href: "/dashboard", icon: LayoutDashboard },
@@ -43,7 +43,7 @@ export default function Header() {
             <Target className="h-5 w-5" />
           </div>
           <div>
-            <p className="text-lg font-bold tracking-tight text-white">PlaceMate</p>
+            <p className="text-lg font-bold tracking-tight text-white">InterviewOps</p>
             <p className="text-xs uppercase tracking-[0.2em] text-slate-500">Placement Command Center</p>
           </div>
         </Link>

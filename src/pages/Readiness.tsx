@@ -6,7 +6,7 @@ import ScoreRing from "@/components/ScoreRing";
 import { useAuth } from "@/contexts/AuthContext";
 import { useToast } from "@/hooks/use-toast";
 import { apiClient, ReadinessResponse } from "@/lib/api";
-import { SYSTEM_DESIGN_OPTIONS, TOPIC_OPTIONS } from "@/lib/placemate";
+import { SYSTEM_DESIGN_OPTIONS, TOPIC_OPTIONS } from "@/lib/InterviewOps";
 
 const steps = ["DSA Strength", "Projects and Experience", "Academics and Skills", "Target Companies"];
 
