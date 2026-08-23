@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "question": "Which companies can I sit for as an EE student?",
+    "answer": "PlaceMate checks your branch and CGPA against each drive's cutoff, then highlights which companies are open to you right now."
+  },
+  {
+    "id": 2,
+    "question": "How does the Resume-JD scorer work?",
+    "answer": "Paste your resume and a job description, and PlaceMate compares technical keywords, missing skills, and repeated requirements to estimate match strength."
+  },
+  {
+    "id": 3,
+    "question": "Can I submit my interview experience after placement?",
+    "answer": "Yes. You can share your rounds, topics asked, and tips so juniors can prepare smarter for the same company."
+  },
+  {
+    "id": 4,
+    "question": "Is the readiness score based on real placement criteria?",
+    "answer": "The score weights DSA, projects, academics, and skills using common campus placement patterns. It is meant to guide your prep, not replace company-specific criteria."
+  },
+  {
+    "id": 5,
+    "question": "How do I track which round I'm in for each company?",
+    "answer": "Use the tracker board to move each application between OA, technical, HR, offer, and rejected stages while keeping notes and next actions in one place."
+  }
+]
